@@ -2,12 +2,12 @@
 
 ## 🚀 Quick Start
 
-1. **Replace the logo**: Copy your `logo icon (1).png` file to `shoppey-extension/icons/logo.png`
-2. Open Chrome → `chrome://extensions/`
-3. Enable "Developer mode" (top right toggle)
-4. Click "Load unpacked"
-5. Select the `shoppey-extension/` folder
-6. Extension is ready to use!
+
+1. Open Chrome → `chrome://extensions/`
+2. Enable "Developer mode" (top right toggle)
+3. Click "Load unpacked"
+4. Select the `shoppey-extension/` folder
+5. Extension is ready to use!
 
 ## 🎯 How to Use
 
@@ -16,19 +16,6 @@
 3. Select "Add to Shoppey Cart"
 4. Click the Shoppey icon in your toolbar to view cart
 5. Switch currencies and manage items
-
-## ✨ Latest Features
-
-- **🖼️ Product Images**: Automatically extracts and displays product preview images
-- **🏪 Store Names**: Shows which store/website the product is from
-- **📦 Stock Status**: Displays if items are in stock, out of stock, or unknown
-- **🐦 Twitter Link**: Follow button linking to https://x.com/mintvait
-- **ℹ️ Info Button**: Click for detailed explanation of how it works
-- **📏 Larger Popup**: Increased width (450px) for better viewing
-- **📜 Scrollable List**: Can scroll through many cart items
-- **🎨 Custom Logo**: Uses your logo icon for branding
-- **🎯 Smart Product Detection**: Avoids service pages, focuses on viable products
-- **🔍 Enhanced Price Detection**: Looks for price/pricing/kaina classes and near buy buttons
 
 ## 📁 File Structure
 
@@ -41,7 +28,7 @@ shoppey-extension/
 ├── popup.js              # Updated logic for new features
 ├── popup.css             # Styling for larger popup + images
 ├── icons/
-│   ├── logo.png          # 🎨 YOUR CUSTOM LOGO HERE
+│   ├── logo.png          # Logo
 │   ├── icon16.png        # Extension icons (can replace with logo)
 │   ├── icon32.png
 │   ├── icon48.png
@@ -68,26 +55,6 @@ The extension now extracts:
 - **Price undetected handling** - adds items with "Price Undetected" label
 - Avoids service pages automatically
 
-## 🔧 Customization
-
-### Replace the Logo
-1. Copy your `logo icon (1).png` file
-2. Rename it to `logo.png`
-3. Place it in `shoppey-extension/icons/`
-4. Reload the extension in Chrome
-
-### Info Modal
-- Click the **ℹ️ info button** to learn how it works
-- Explains limitations and support request process
-- Links to your Twitter for feature requests
-
-### Twitter Link
-- Automatically links to https://x.com/mintvait
-- Hover text: "Follow Me!"
-- Opens in new tab
-
-## 🧪 Test Sites
-
 Try these product pages to test all features:
 - **Amazon**: Full images + stock status
 - **eBay**: Store names + availability
@@ -103,7 +70,6 @@ Try these product pages to test all features:
 - **💱 Currency Conversion**: 14 currencies with live rates
 - **🔄 Persistent Cart**: Saves items across browser sessions
 - **📏 Larger Display**: More items visible, better scrolling
-- **🐦 Social Integration**: Direct link to your Twitter
 - **ℹ️ User Guidance**: Info modal explains functionality
 - **🎯 Smart Filtering**: Avoids service pages automatically
 
